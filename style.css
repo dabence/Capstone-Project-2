@@ -1,0 +1,190 @@
+/* 
+4A55A2
+7895CB
+A0BFE0
+C5DFF8
+*/
+
+
+*{
+  margin: 0px;
+}
+
+
+.container{
+  text-align: center;
+  padding-bottom: 48px;
+  margin-top: 40px;
+
+}
+
+
+@keyframes gradient-animation{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+.title{
+  font-family: Handjet, Cursive;
+  margin-top: 12px;
+  font-size: 40px;
+  color: white;
+}
+
+.font-2{
+  font-family: Inconsolata, Cursive; 
+}
+
+.heading-2{
+  font-size: 28px;
+  margin-top: 16px;
+  margin-bottom: 48px;
+  
+}
+
+
+
+#intro{
+
+  background: rgb(160,191,224);
+  background: linear-gradient(90deg, rgb(160,191,224) 20%, #7895CB 90%);
+  animation: gradient-animation 36s ease infinite;
+}
+
+.description{
+  max-width: 520px;
+  text-align: justify;
+  font-size: 20px;
+}
+
+.image-shape{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.city{
+  width: 100%;;
+}
+
+#about-me{
+  background-color: #7895CB;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.flex-column{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+
+.button{
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 4px;
+  color: white;
+  font-family: Inconsolata, Cursive;
+  text-decoration: none;
+  height: 24px;
+  font-size: 20px;
+  padding: 8px 12px;
+  
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.white-box{
+  background-color: #ffffffdd;
+
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.reduce-margin{
+  margin-bottom: 24px;
+}
+
+#projects{
+  background-color: #7895CB;
+}
+
+.heading-3{
+  font-size: 24px;
+}
+
+.title-container{
+  background-image: url("./images/plane.png");
+  width: 400px;
+}
+
+#interests{
+  background-color: #A0BFE0;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px;
+  justify-content: center;
+  font-family: Inconsolata, cursive;
+  text-align: center;
+  gap: 24px;
+  grid-auto-flow: column;
+}
+
+.interest-pic{
+  height: 100px;
+  margin-top: 16px;
+}
+
+#contact{
+  
+  background-color: #C5DFF8;
+}
+
+@media (max-width: 674px){
+  .grid{
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+  }
+}
+
+.button-dark{
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 4px;
+  color: black;
+  font-family: Inconsolata, Cursive;
+  text-decoration: none;
+  height: 32px;
+  font-size: 28px;
+  padding: 8px 12px;
+  margin-left: 48px;
+  
+}
+
+footer{
+  background-color: #4A55A2;
+  height: 96px;
+}

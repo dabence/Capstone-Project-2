@@ -1,0 +1,33 @@
+intro
+My name is Vincent
+An aspiring web developer
+
+
+About me
+I am invested in web development (previously Back-end).  
+I love learning and exploring. 
+I have a birb named Pizza and she likes biting and cuddles
+
+Projects Created
+AUST: Ask-UST Chatbot for UST-ICT
+Backend Developer, 2022
+ Tech Stack: ReactJS, DBMS used: MongoDB
+ A project about a chatbot used for University of Santo Tomas with additional Content Management with the goal is to answer questions related to top offices of UST and a platform for users to give feedback related to the chatbot. 
+
+Nutrilife Web and Management System
+System Analyst, 2021-2022
+Scripting Language: PHP, DBMS: MySQL
+A Content Management System for NutriLife Fruits and Vegetables Wholesaling. The project is made for the client to manage the information within the website and to improve marketing.
+
+
+
+
+
+Gaming
+Movies
+TV Shows 
+Cartoons
+Anime
+I also enjoy sports (for fun, not competing. AND except basketball).
+
+See my resume(btn)
