@@ -18,6 +18,10 @@ C5DFF8
 
 }
 
+.with-margin{
+  margin-bottom: 16px;
+}
+
 
 @keyframes gradient-animation{
   0%{
@@ -118,6 +122,8 @@ C5DFF8
   border-radius: 8px;
   padding: 16px;
   margin-bottom: 24px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 
 .reduce-margin{
@@ -148,7 +154,7 @@ C5DFF8
   justify-content: center;
   font-family: Inconsolata, cursive;
   text-align: center;
-  gap: 24px;
+  gap: 12px;
   grid-auto-flow: column;
 }
 
@@ -177,10 +183,10 @@ C5DFF8
   color: black;
   font-family: Inconsolata, Cursive;
   text-decoration: none;
-  height: 32px;
-  font-size: 28px;
+  height: 24px;
+  font-size: 20px;
   padding: 8px 12px;
-  margin-left: 48px;
+  margin-left: 24px;
   
 }
 
@@ -188,3 +194,11 @@ footer{
   background-color: #4A55A2;
   height: 96px;
 }
+
+body{
+  width: 100%;
+}
+
+/* section{
+  width: 100vw;
+} */
